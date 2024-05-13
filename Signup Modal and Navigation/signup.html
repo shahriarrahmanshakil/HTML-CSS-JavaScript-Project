@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seceond Part -->
+    <header>
+        <buttton class="menu-bar" id="toggole">
+            <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        </buttton>
+        <h1 class="heading">The Cuisin Time</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, error perspiciatis dolorem esse magnam voluptatem obcaecati illo aut dolor! Itaque vitae magnam quisquam laboriosam officia atque eligendi nam, dolor laudantium.</p>
+
+        <button class="signup-btn" id="open">sign up</button>
+    </header>
+
+    <!-- Third part -->
+    <div class="modal-container" id="modal">
+        <div class="model-open">
+            <button class="close-btn" id="close">
+                <ion-icon name="close-outline" class="close-icon"></ion-icon>
+            </button>
+        </div>
+        <div class="modal-header">
+            <h1 class="modal-heading">Sign Up</h1>
+        </div>
+        <div class="modal-container">
+            <p class="modal-tag">Low cost High Quality</p>
+            <form class="modal-form">
+                <div>
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" placeholder="Enter you'r name" class="form-input" autocomplete="off">
+                </div>
+                <br>
+                <div>
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" placeholder="Enter you'r email" class="form-input" autocomplete="off">
+                </div>
+                <br>
+                <div>
+                    <label for="mobile" class="form-label">Mobile</label>
+                    <input type="number" id="mobile" placeholder="Enter you'r Mobile Number" class="form-input" autocomplete="off">
+                </div>
+                <br>
+                <div>
+                    <label for="password" class="form-label">password</label>
+                    <input type="password" id="password" placeholder="Enter you'r password" class="form-input" autocomplete="off">
+                </div>
+                <br>
+                <div>
+                    <label for="cpassword" class="form-label">Confirm password</label>
+                    <input type="password" id="password" placeholder="Confirm password" class="form-input" autocomplete="off">
+                </div>
+                
+                <input type="submit" class="submit-btn">
+
+            </form>
+        </div>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="signup.js"></script>
+</body>
+</html>
